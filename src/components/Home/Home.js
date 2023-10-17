@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './Home.scss'
+import Logo from './Logo/Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -55,7 +54,7 @@ const Home = () => {
         <AnimatedLetters
           letterClass={letterClass}
           strArray={jobArray}
-          idx={22}
+          idx={17}
         />
       </h1>
       <h2>Full Stack Developer / React Js / .Net / C#</h2>
@@ -66,6 +65,7 @@ const Home = () => {
   return (
     <div>
      {title}
+     <Logo />
     </div>
   )
 }
