@@ -1,29 +1,33 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
-import "./index.scss";
+import "./Projects.scss";
+import Ecommerce from "../../assets/images/ecommerce.jpg"
+import Dv from "../../assets/images/data visualization.jpg"
+import PortfolioP from "../../assets/images/portfolio.png"
+import Tdd from "../../assets/images/tdd.png"
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([
-        {'image':'',
+        {'image': Ecommerce,
         'name': 'Stellar ecommerce',
-        'description': 'description',
+        'description': 'An e-commerce website, that is built using .Net Core, React JS, SQL Server and MongoDB. With JWT token-based authentication and redux for state management.',
         'url': 'https://github.com/IKPreethi/stellar_ecommerce'
         },
-        {'image':'',
+        {'image':Dv,
         'name': 'Data Visualization',
-        'description': 'description',
+        'description': 'How Washington is transitioning to EV - An informative visualization using python that targets and understands the transition of Washington state towards Electric vehicles. I have utilized 7 different visualization techniques including an interactive heatmap.',
         'url': 'https://github.com/IKPreethi/DV-WashingtonTransitionToEV'
         },
-        {'image':'',
+        {'image':PortfolioP,
         'name': 'Personal portfolio',
-        'description': 'description',
+        'description': 'A responsive web application built using React JS. Implemented Emailjs to facilitate email communication through the webapp.',
         'url': 'https://github.com/IKPreethi/Personal-portfolio'
         },
-        {'image':'',
+        {'image':Tdd,
         'name': 'Test driven development',
-        'description': 'description',
+        'description': 'A simple tic-tac-tow game developed with React typescript and jest to demonstrate my understanding of the test driven development using jest and good coding practices.',
         'url': 'https://github.com/IKPreethi/TicTacToe-TDD'
         },
     ]);
@@ -53,7 +57,7 @@ const Portfolio = () => {
                                 alt="portfolio" />
                                 <div className="content">
                                     <p className="title">{port.name}</p>
-                                   {/*  <h4 className="description">{port.description}</h4> */}
+                                    <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
                                         onClick={() => window.open(port.url)}
@@ -74,7 +78,7 @@ const Portfolio = () => {
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}
-                        strArray={"Portfolio".split("")}
+                        strArray={"Projects".split("")}
                         idx={15}
                     />
                 </h1>

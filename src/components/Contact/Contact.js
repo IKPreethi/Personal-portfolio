@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react'
-import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './Contact.scss'
@@ -45,7 +43,7 @@ const Contact = () => {
           </h1>
           <p>
            If you have any requests or
-           questions, don't hesitate to contact me using below form either.
+           questions, don't hesitate to contact me using below form.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

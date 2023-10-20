@@ -9,7 +9,7 @@ const Logo = () => {
       <img
         className="solid-logo"
         src={Picture}
-        alt="JavaScript,  Developer"
+        alt="Profilepicture"
       />
 
 

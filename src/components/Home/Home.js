@@ -57,7 +57,7 @@ const Home = () => {
           idx={17}
         />
       </h1>
-      <h2>Full Stack Developer / React Js / .Net / C#</h2>
+      <h2>Full Stack Developer / React Js / .Net / C#/ SQL / Azure / AWS</h2>
     </div>
   </div>
   );

@@ -6,8 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -26,7 +24,7 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link 
         className="logo"
-        to="/"
+        to="/personal-portfolio"
         onClick={() => setShowNav(false)}>
         <img src={LogoP} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="preethi" />
@@ -49,7 +47,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="/personal-portfolio/portfolio"
+          to="/personal-portfolio/projects"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
@@ -111,15 +109,3 @@ const Sidebar = () => {
 
 export default Sidebar
 
-
-/* import React from 'react'
-
-const index = () => {
-  return (
-    <div>
-      <label> Displaying from sideNav</label>
-    </div>
-  )
-}
-
-export default index */
