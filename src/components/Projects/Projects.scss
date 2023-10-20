@@ -128,6 +128,23 @@
           height: 200px;
           max-width: calc(50% - 10px);
         }
+
+        .images-container {
+            display: block;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding-bottom: 100px;
+        }
+
+        .description {
+            font-size: 10px;
+            margin-bottom: 5px;
+            margin-right: 9px;
+            color: #fff;
+            font-weight: 700;
+            display: block;
+        }
+
       }
     .text-zone {
         position: initial;
