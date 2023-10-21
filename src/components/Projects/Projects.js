@@ -27,7 +27,7 @@ const Portfolio = () => {
         },
         {'image':Tdd,
         'name': 'Test driven development',
-        'description': 'A simple tic-tac-tow game developed with React typescript and jest to demonstrate my understanding of the test driven development using jest and good coding practices.',
+        'description': 'A simple tic-tac-toe game developed with React typescript and jest to demonstrate my understanding of the test driven development using jest and good coding practices.',
         'url': 'https://github.com/IKPreethi/TicTacToe-TDD'
         },
     ]);
@@ -57,7 +57,7 @@ const Portfolio = () => {
                                 alt="portfolio" />
                                 <div className="content">
                                     <p className="title">{port.name}</p>
-                                    <h4 className="description">{port.description}</h4>
+                                   {/* <h4 className="description">{port.description}</h4> */} 
                                     <button
                                         className="btn"
                                         onClick={() => window.open(port.url)}
