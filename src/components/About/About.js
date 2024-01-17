@@ -36,18 +36,13 @@ const About = () => {
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p>
-            With a rich background spanning over 4 years, I've contributed my skills as a Software Developer in two prominent organizations – SAP Labs India and Ernst & Young.
-           </p>
-           <p>
-            At SAP Labs, I played a pivotal role in helping businesses of diverse sizes and industries operate profitably through SAP's intelligent technologies. My focus was on developing a cloud-based analytics service, a single solution merging business intelligence and enterprise planning with the power of artificial intelligence, machine learning, and predictive analytics. 
-            </p>
-            <p>
-            Prior to my experience at SAP Labs, I contributed my expertise as a Software Developer at Ernst & Young - GDS. Here, I worked on a patented EY-Life Science Healthcare project, collaborating with esteemed clients like NHS, Pfizer, AstraZeneca, BMS, Roche, among others. The project aimed to create value-based contracting strategies, optimizing costs while improving patient outcomes.
-            </p>
-            <p align="LEFT">
+          <p align="LEFT">
             I'm quiet confident, naturally curious, and perpetually working on
             improving my chops one development problem at a time.
+          </p>
+          <p>
+           My past experience at Ernst & Young and SAP Labs have equipped me with the
+           knowledge and capabilities to work on multiple industries. 
           </p>
         </div>
 
