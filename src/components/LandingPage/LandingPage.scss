@@ -1,0 +1,19 @@
+// styles.scss
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    height: 100vh; // Set the container height to 100% of the viewport height
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; // Enable vertical scrolling for overflowing content
+  }
+  
+  .component {
+    margin: 10px;
+    padding: 20px;
+  }
+  
