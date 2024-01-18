@@ -11,18 +11,16 @@ const LandingPage = () => {
  
   return (
     <div className="container">
-      <Element name =  "personal-portfolio" className="section">
-      <div className="component">
+      <div id = "home" className="component">
         <Home />
       </div>
-      </Element>
-      <div className="component">
+      <div id = "about" className="component">
        <About />
       </div>
-      <div className="component">
+      <div id = "projects" className="component">
        <Projects />
       </div>
-      <div className="component">
+      <div id = "contact" className="component">
        <Contact />
       </div>
     </div>

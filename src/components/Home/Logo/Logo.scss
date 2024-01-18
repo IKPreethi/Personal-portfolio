@@ -35,17 +35,10 @@
 
 @media screen and (max-width: 1200px) { 
   .logo-container {
-    position: relative;
-    width: 100px;
-    height: auto;
-    top: 50px;
-    right: 0;
-    box-sizing: border-box;
-    margin: auto;
-    left: 0;
+   display: none;
   }
 
-  .logo-container svg {
+  .solid-logo  {
     position: absolute;
     top: auto;
     right: auto;

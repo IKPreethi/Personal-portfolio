@@ -6,6 +6,7 @@ import LandingPage from '../LandingPage/LandingPage'
 const Layout = () => {
   return (
     <div className="App">
+      <Sidebar />
       <div className="page">
         <LandingPage />
       </div>

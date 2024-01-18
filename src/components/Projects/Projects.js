@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import "./Projects.scss";
-import Ecommerce from "../../assets/images/ecommerce.jpg"
-import Dv from "../../assets/images/data visualization.jpg"
-import PortfolioP from "../../assets/images/portfolio.png"
-import Tdd from "../../assets/images/tdd.png"
+import Ecommerce from "../../assets/images/ecommerce1.jpg"
+import Dv from "../../assets/images/DV.jpg"
+import PortfolioP from "../../assets/images/portfolio1.jpg"
+import Tdd from "../../assets/images/testing.jpg"
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 
 const Portfolio = () => { 
