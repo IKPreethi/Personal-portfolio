@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar'
 import './Layout.scss'
 import LandingPage from '../LandingPage/LandingPage'
@@ -8,7 +7,7 @@ const Layout = () => {
     <div className="App">
       <Sidebar />
       <div className="page">
-        <LandingPage />
+      <LandingPage />
       </div>
     </div>
   )
