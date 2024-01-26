@@ -5,6 +5,7 @@ import Ecommerce from "../../assets/images/ecommerce1.jpg"
 import Dv from "../../assets/images/DV.jpg"
 import PortfolioP from "../../assets/images/portfolio1.jpg"
 import Tdd from "../../assets/images/testing.jpg"
+import FetalHealth from "../../assets/images/Fetal-health.png"
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 
 const Portfolio = () => { 
@@ -29,6 +30,11 @@ const Portfolio = () => {
         'name': 'Test driven development',
         'description': 'A simple tic-tac-toe game developed with React typescript and jest to demonstrate my understanding of the test driven development using jest and good coding practices.',
         'url': 'https://github.com/IKPreethi/TicTacToe-TDD'
+        },
+        {'image':FetalHealth,
+        'name': 'Fetal Health Classification',
+        'description': '',
+        'url': 'https://github.com/IKPreethi/Fetal-Health-Classification'
         },
     ]);
 
