@@ -4,6 +4,8 @@ import "./Projects.scss";
 import Ecommerce from "../../assets/images/ecommerce1.jpg"
 import Dv from "../../assets/images/DV.jpg"
 import PortfolioP from "../../assets/images/portfolio1.jpg"
+import ExpenseTracker from "../../assets/images/ExpenseTracker.jpg"
+import StudentManager from "../../assets/images/StudentManager.png"
 import Tdd from "../../assets/images/testing.jpg"
 import FetalHealth from "../../assets/images/Fetal-health.png"
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
@@ -35,6 +37,16 @@ const Portfolio = () => {
         'name': 'Fetal Health Classification',
         'description': '',
         'url': 'https://github.com/IKPreethi/Fetal-Health-Classification'
+        },
+        {'image':StudentManager,
+        'name': 'Student Manager',
+        'description': '',
+        'url': 'https://github.com/IKPreethi/StudentManager'
+        },
+        {'image':ExpenseTracker,
+        'name': 'Expense Tracker',
+        'description': '',
+        'url': 'https://github.com/IKPreethi/Expense-Tracker'
         },
     ]);
 
