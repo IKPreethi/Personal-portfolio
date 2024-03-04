@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.f20fbcc8.css",
-    "main.js": "/personal-portfolio/static/js/main.495bacde.js",
+    "main.js": "/personal-portfolio/static/js/main.edc011d0.js",
     "static/js/787.ed061292.chunk.js": "/personal-portfolio/static/js/787.ed061292.chunk.js",
     "static/media/picture.jpg": "/personal-portfolio/static/media/picture.0aa1d7ff6ba7c9476e14.jpg",
     "static/media/logo-p.png": "/personal-portfolio/static/media/logo-p.404217bc3dc38d76b31c.png",
+    "static/media/ExpenseTracker.jpg": "/personal-portfolio/static/media/ExpenseTracker.bb25c3169d1746a5aa64.jpg",
     "static/media/Fetal-health.png": "/personal-portfolio/static/media/Fetal-health.46a5c2229a5e6d252761.png",
     "static/media/helvetica-neu.ttf": "/personal-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff": "/personal-portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/StudentManager.png": "/personal-portfolio/static/media/StudentManager.b245c60926ab2f28c3b1.png",
     "static/media/LaBelleAurore.woff2": "/personal-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff": "/personal-portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/DV.jpg": "/personal-portfolio/static/media/DV.21adbe53cafe6d85802b.jpg",
@@ -16,11 +18,11 @@
     "static/media/logo.svg": "/personal-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.f20fbcc8.css.map": "/personal-portfolio/static/css/main.f20fbcc8.css.map",
-    "main.495bacde.js.map": "/personal-portfolio/static/js/main.495bacde.js.map",
+    "main.edc011d0.js.map": "/personal-portfolio/static/js/main.edc011d0.js.map",
     "787.ed061292.chunk.js.map": "/personal-portfolio/static/js/787.ed061292.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f20fbcc8.css",
-    "static/js/main.495bacde.js"
+    "static/js/main.edc011d0.js"
   ]
 }
