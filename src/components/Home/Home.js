@@ -32,6 +32,7 @@ const Home = () => {
   useEffect(() => {
      setTimeout(() => {
       setLetterClass('text-animate-hover')
+      setSDEClass('text-animate1-hover')
     }, 4000)
   }, [])
 
@@ -52,7 +53,7 @@ const Home = () => {
         />
         <br />
         <AnimatedLetters
-          letterClass={letterClass}
+          letterClass={SDEClass}
           strArray={jobArray}
           idx={17}
         />
