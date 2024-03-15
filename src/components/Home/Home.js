@@ -5,6 +5,7 @@ import Logo from './Logo/Logo'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const [SDEClass, setSDEClass] = useState('text-animate1')
 
   const nameArray = ['P', 'r', 'e', 'e', 't', 'h', 'i']
   const jobArray = [
