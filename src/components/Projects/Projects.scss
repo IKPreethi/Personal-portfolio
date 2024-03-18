@@ -124,12 +124,13 @@
           margin-top: 20px;
         }
         
-        .title{
-            font-size: 15px;
-        }
+       
         .image-box {
           height: 200px;
-          max-width: calc(50% - 10px);
+          max-width: calc(80%);
+          .title{
+            font-size: 15px;
+        }
         }
 
         .images-container {

@@ -1,36 +1,29 @@
 
 
-.image-box {
-  position: relative;
-  flex: 1 1 20%;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 10px;
-  max-width: calc(25% - 10px);
 
-  .portfolio-image {
-      position: absolute;
-      z-index: 2;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-}
-
-.h2 {
-  color: #efd81d;
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 11px;
-  font-family: sans-serif;
-  letter-spacing: 3px;
-  animation: fadeIn 1s 1.8s backwards;
-}
-
-.container.about-page{
+.container.experience{
   overflow: hidden;
   margin: 10px;
   padding: 20px;
+}
+.text-zone1 {
+  position: relative;
+  left: 50%;
+  top: 43.5%;
+  transform: translateY(-50%);
+  width: 35%;
+  vertical-align: middle;
+  display: table-cell;
+  max-height: 90%;
+  .image{
+    padding-top: 35%;
+    padding-left: 30%;
+    width: 50%;
+  }
+}
+li {
+  color: white;
+  font-size: small;
 }
 .cubespinner {
   animation-name: spincube;
@@ -56,14 +49,14 @@
   }
 
  .li{
-  color: #ccc;
+  color: white;
  }
 }
 
 
 @media screen and (max-width: 1200px) { 
 
-  .container.about-page {
+  .container.experience {
     position: initial;
     transform: none;
     width: 100%;
@@ -73,9 +66,8 @@
     overflow-wrap: break-word;
   }
 
-  .image-box {
-    height: 100px;
-    max-width: calc(50% - 10px);
+  .text-zone1 {
+    display: none;
   }
 
 }

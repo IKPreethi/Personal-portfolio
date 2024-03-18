@@ -39,7 +39,8 @@
 
 .container.contact-page,
 .container.about-page,
-.container.portfolio-page {
+.container.portfolio-page,
+.container.experience  {
   
     h1 {
       font-size: 53px;
@@ -125,7 +126,8 @@
 
     &.contact-page,
     &.about-page,
-    &.portfolio-page {
+    &.portfolio-page,
+    &.experience {
       .text-zone {
         position: initial;
         transform: none;
@@ -133,6 +135,9 @@
         display: block;
         padding: 20px;
         box-sizing: border-box;
+      }
+      h1 {
+        font-size: 33px;
       }
     }
 
@@ -148,7 +153,7 @@
 
       .image-box {
         height: 200px;
-        max-width: calc(50% - 10px);
+        max-width: calc(80%);
       }
     }
   }

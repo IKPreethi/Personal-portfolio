@@ -5,7 +5,7 @@ import Home from '../Home/Home'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
-import ExperiencePage from '../Experience/Experience1'
+import ExperiencePage from '../Experience/Experience'
 
 const LandingPage = () => {
 
@@ -18,9 +18,9 @@ const LandingPage = () => {
       <div id = "about" className="component">
        <About />
       </div>
-      {/* <div id = "experience" className="component">
+      <div id = "experience" className="component">
        <ExperiencePage />
-      </div> */}
+      </div> 
       <div id = "projects" className="component">
        <Projects />
       </div>
