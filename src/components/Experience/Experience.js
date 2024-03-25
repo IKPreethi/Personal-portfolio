@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { VscAzure } from "react-icons/vsc";
 import { SiDotnet, SiSap } from "react-icons/si";
 import SAP from "../../assets/images/sap_logo_icon.png"
-import EY from "../../assets/images/ey_logo_icon.png"
+import EY from "../../assets/images/ey_logo_icon.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Experience.scss'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
@@ -52,8 +52,8 @@ const ExperiencePage = () => {
                             <li>Improved the performance of the application by incorporating Lazy loading, React router, Redux and efficient error handling methodologies.</li>
         </div>
         <div className='text-zone1'>
-        <img className = 'image' src={SAP} alt="Company Logo" />       
-        <img src={EY} alt="Company Logo" />
+        <img className = 'image-SAP' src={SAP} alt="Company Logo" />       
+        <img className = 'image-EY'src={EY} alt="Company Logo" />
         </div>
         
         {/* <Container className="container about-page" style={{ margin: '10px'}}>
