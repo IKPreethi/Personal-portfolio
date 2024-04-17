@@ -8,6 +8,7 @@ import ExpenseTracker from "../../assets/images/ExpenseTracker.jpg"
 import StudentManager from "../../assets/images/StudentManager.png"
 import Tdd from "../../assets/images/testing.jpg"
 import FetalHealth from "../../assets/images/Fetal-health.png"
+import DjangoCRM from "../../assets/images/Django-CRM.jpg"
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 
 const Portfolio = () => { 
@@ -47,6 +48,11 @@ const Portfolio = () => {
         'name': 'Expense Tracker',
         'description': '',
         'url': 'https://github.com/IKPreethi/Expense-Tracker'
+        },
+        {'image':DjangoCRM,
+        'name': 'Django CRM',
+        'description': '',
+        'url': 'https://github.com/IKPreethi/DemoCRM'
         },
     ]);
 

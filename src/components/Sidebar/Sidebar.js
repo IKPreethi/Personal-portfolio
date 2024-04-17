@@ -46,6 +46,13 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </a>
         <a
+          className="experience-link"
+          href="#experiencepage"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </a>
+        <a
           className="portfolio-link"
           href="#projects"
           onClick={() => setShowNav(false)}
