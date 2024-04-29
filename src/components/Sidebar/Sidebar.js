@@ -14,6 +14,8 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faCode,
+  faSchool,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -47,17 +49,24 @@ const Sidebar = () => {
         </a>
         <a
           className="experience-link"
-          href="#experiencepage"
+          href="#experience"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </a>
+        <a
+          className="education-link"
+          href="#education"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faSchool} color="#4d4d4e" />
         </a>
         <a
           className="portfolio-link"
           href="#projects"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
         </a>
         <a
           className="contact-link"

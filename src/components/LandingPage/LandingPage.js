@@ -6,6 +6,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import ExperiencePage from '../Experience/Experience'
+import Education from '../Education/Education';
 
 const LandingPage = () => {
 
@@ -21,6 +22,9 @@ const LandingPage = () => {
       <div id = "experience" className="component">
        <ExperiencePage />
       </div> 
+      <div id = "education" className="component">
+       <Education />
+      </div>
       <div id = "projects" className="component">
        <Projects />
       </div>
